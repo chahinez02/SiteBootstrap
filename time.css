@@ -1,0 +1,156 @@
+/*ALL*/
+.color-text{
+    color: #ff2020;
+}
+.bg-color{
+    background-color: #ff2020 !important;
+}
+@media(min-width:992px){
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm{
+        max-width: 829px;
+    }
+}
+.title{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    /*margin-top: 7rem ;*/
+
+}
+.space-section{
+    margin-top: 8rem !important;
+}
+
+
+/****style Navbar****/
+.navbar-spac{
+    padding: 7px 6rem !important;
+     
+}
+.nav-link:focus, .nav-link:hover{
+    color:#ff2020 !important;
+}
+.spac-item{
+    margin:0 7px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.logo{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    
+}
+.dropdown-toggle::after{
+    top:34px;
+    left:7px;
+    color:#ff2020;
+    rotate: 180deg;
+    position: absolute;
+ 
+}
+.dropdown-menu{
+    border-top: 4px red solid;
+}
+/****style Section2****/
+.bg-gray{
+    background-color: #ededed;
+}
+.title-1{
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 58px;
+    color:#0b1c39,
+
+}
+.btn-1{
+    background-color: #4a4a4b;
+    color: white;
+    padding: 6px 23px;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+.btn-1:hover{
+    background-color: #ff2020;
+}
+
+
+/****style Section3****/
+
+.title-b3{
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif ;
+    font-weight: 600;
+}
+
+/****style Section4****/
+.spac-section4{
+
+    overflow: hidden;
+    padding: 0;
+}
+/****style Section5****/
+
+.border-b{
+    border-bottom: 3px solid #ff2020;
+}
+
+.p-sect5{
+    font-size: 14px;
+    line-height:  27px;;
+    padding: 0 7rem;
+
+}
+/****style Section6****/
+
+.p-size{
+  padding: 0 3rem 0 0 ;
+}
+/****style Section7****/
+
+.p-2rem{
+    padding: 1.5rem 2rem;
+}
+.icons{
+    font-size: 44px;
+}
+.title-h5{
+    font-size: 15px;
+}
+.paragra{
+    font-size: 10px;
+    color: #cecbcb;
+    width: 84%;
+}
+
+
+
+.paragra1{
+    color: #cecbcb;
+    width: 84%;
+    font-size: 10px;
+}
+.title-h6{
+    color: #0b1c39;
+    font-size: 20px;
+}
+/****style footer****/
+.para-footer{
+    color:#7e7a7a;
+    font-size: 13px;
+
+}
+.li-footer{
+    list-style-type: none;
+}
+.a-footer{
+    color:#7e7a7a;
+    text-decoration: none;
+    font-size: 13px;
+}
+.p-1{
+    font-size: 14px;
+}
